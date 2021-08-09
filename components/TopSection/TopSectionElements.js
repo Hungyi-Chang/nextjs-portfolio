@@ -6,9 +6,13 @@ export const TopSectionContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 730px;
+  height: 760px;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 480px) {
+    height: 780px;
+  }
 `;
 
 export const TopBg = styled.div`
@@ -23,6 +27,7 @@ export const TopBg = styled.div`
 `;
 
 export const TopContent = styled.div`
+  margin-top: -10px;
   z-index: 3;
   max-width: 1200px;
   position: absolute;
@@ -30,13 +35,16 @@ export const TopContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (max-width: 480px) {
+    margin-top: -60px;
+  }
 `;
 
 export const TopName = styled.p`
   color: #262626;
   text-align: center;
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-family: 'Encode Sans Expanded', sans-serif;
   font-weight: 600;
 
   @media screen and (max-width: 768px) {
@@ -73,13 +81,13 @@ export const TopRole = styled.p`
   color: #262626;
   text-align: center;
   ${'' /* width: 28rem; */}
-  font-size: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  font-family: 'Encode Sans Expanded', sans-serif;
   font-weight: 600;
   border-right: 2.5px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-35%);
+  transform: translateY(-25%);
 
   @media screen and (max-width: 768px) {
     font-size: 35px;
@@ -101,6 +109,65 @@ export const TopRole = styled.p`
     `;
   }}
 `;
+
+
+export const TopSummary = styled.p`
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 25px;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  max-width: 600px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+`;
+
+
+export const TopButtonSection = styled.div`
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+`;
+
+export const TopButtonWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+
+  @media screen and (max-width: 480px) {
+    padding: 0.8rem 0;
+  }
+`;
+export const IconContainer = styled.div`
+  padding: 8px;
+  margin-right: 1px;
+  width: 45px;
+  height: 45px;
+  @media screen and (max-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 40px;
+    height: 40px;
+  }
+`;
+
 
 const typewriter = keyframes`
 

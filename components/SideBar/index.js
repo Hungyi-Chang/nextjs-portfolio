@@ -27,9 +27,7 @@ function SideBar({ isOpen, toggle }) {
             </Link>
           </SidebarMenu>
           <SideBtnWrap>
-            <Link href="/contact">
-              <ContactLink>Contact Me</ContactLink>
-            </Link>
+              <ContactLink to="contact">Contact Me</ContactLink>
           </SideBtnWrap>
         </SidebarWrapper>
       </SidebarContainer>

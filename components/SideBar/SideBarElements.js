@@ -55,7 +55,7 @@ export const SidebarLink = styled(LinkScroll)`
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
@@ -74,7 +74,7 @@ export const ResumeLink = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
@@ -94,14 +94,14 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const ContactLink = styled.div`
+export const ContactLink = styled(LinkScroll)`
   border-radius: 50px;
   background: #98bff5;
   white-space: nowrap;
   padding: 16px 48px;
   color: #010606;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   outline: none;
   border: none;
   cursor: pointer;

@@ -24,26 +24,54 @@ const NavBar = ({toggle}) => {
               alt="logo"
             ></NavLogo>
           </Link>
-          <MobileIcon onClick={toggle}> 
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLink to="about">About Me</NavLink>
+              <NavLink
+                to="about"
+                smooth={true}
+                spy={true}
+                exact="true"
+                offset={-50}
+              >
+                About Me
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="project">Project</NavLink>
+              <NavLink
+                to="project"
+                smooth={true}
+                spy={true}
+                exact="true"
+                offset={-20}
+              >
+                Project
+              </NavLink>
             </NavItem>
             <NavItem>
-              <Link href="/Resume">
-                <NavLink>Resume</NavLink>
-              </Link>
+              <NavLink
+                to="contact"
+                smooth={true}
+                spy={true}
+                exact="true"
+                offset={150}
+              >
+                Contact Me
+              </NavLink>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <Link href="/contact">
-              <NavBtnLink>Contact Me</NavBtnLink>
-            </Link>
+            <NavBtnLink
+              to="contact"
+              smooth={true}
+              spy={true}
+              exact="true"
+              offset={-60}
+            >
+              Resume
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

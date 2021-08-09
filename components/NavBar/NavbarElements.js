@@ -4,7 +4,7 @@ import { Link as LinkScroll } from 'react-scroll'
 export const Nav = styled.nav`
   background: #98bff5;
   height: 70px;
-  ${'' /* margin-top: -80rem; */}
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +15,7 @@ export const Nav = styled.nav`
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+   
   }
 `;
 
@@ -62,12 +63,12 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-  height: 78px;
+  height: 72px;
 `
 
 export const NavLink = styled(LinkScroll)`
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
 
   display: flex;
   align-items: center;
@@ -93,8 +94,7 @@ export const NavBtn = styled.nav`
       display: none;
   }
 `
-export const NavBtnLink = styled.div`
-  box-shadow: 1px 2px 3px #888888;
+export const NavBtnLink = styled(LinkScroll)`
 
   border-radius: 45px;
   background: #262626;
@@ -102,7 +102,7 @@ export const NavBtnLink = styled.div`
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   outline: none;
   border: none;
   cursor: pointer;
@@ -111,7 +111,7 @@ export const NavBtnLink = styled.div`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fcba57;
+    background: #fff;
     color: black;
   }
 `;
