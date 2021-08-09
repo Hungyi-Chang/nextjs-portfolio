@@ -19,15 +19,21 @@ function SideBar({ isOpen, toggle }) {
           <CloseIcon />
         </Icon>
         <SidebarWrapper>
-          <SidebarMenu>
-            <SidebarLink to="about">About Me</SidebarLink>
-            <SidebarLink to="project">Project</SidebarLink>
-            <Link href="/resume">
-              <ResumeLink>Resume</ResumeLink>
-            </Link>
+          <SidebarMenu >
+            <SidebarLink to="about" smooth={true}
+              spy={true}
+              exact="true"
+              offset={-50}
+              onClick={toggle}>About Me</SidebarLink>
+            <SidebarLink to="project" smooth={true}
+              spy={true}
+              exact="true"
+              offset={100}
+              onClick={toggle}>Project</SidebarLink>
+            
           </SidebarMenu>
           <SideBtnWrap>
-              <ContactLink to="contact">Contact Me</ContactLink>
+            <ContactLink to="contact" onClick={toggle}>Contact Me</ContactLink>
           </SideBtnWrap>
         </SidebarWrapper>
       </SidebarContainer>

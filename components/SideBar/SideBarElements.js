@@ -41,12 +41,12 @@ export const SidebarMenu = styled.div`
  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  grid-template-rows: repeat(4, 80px);
   text-align: center;
   
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 70px);
+    grid-template-rows: repeat(4, 70px);
   }
 `;
 

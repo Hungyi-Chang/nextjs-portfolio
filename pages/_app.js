@@ -7,7 +7,6 @@ import {ScrollTopContext} from '../components/Animation/Context';
 const MyApp= ({Component, pageProps}) =>{
   const [isOpen, setIsOpen] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
-
   const handleUserScroll = useCallback(() => {
    
     if (scrollTop !== window.pageYOffset) {

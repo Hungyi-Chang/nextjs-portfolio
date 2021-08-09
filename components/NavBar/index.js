@@ -56,7 +56,7 @@ const NavBar = ({toggle}) => {
                 smooth={true}
                 spy={true}
                 exact="true"
-                offset={150}
+                offset={140}
               >
                 Contact Me
               </NavLink>
@@ -68,7 +68,7 @@ const NavBar = ({toggle}) => {
               smooth={true}
               spy={true}
               exact="true"
-              offset={-60}
+              offset={60}
             >
               Resume
             </NavBtnLink>

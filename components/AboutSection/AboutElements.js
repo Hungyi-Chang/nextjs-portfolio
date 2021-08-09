@@ -4,8 +4,6 @@ export const AboutContainer = styled.div`
   background: #fff;
   padding: 40px 0;
   height: 800px;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   @media screen and (max-width: 768px) {
     padding: 30px 0;
   }

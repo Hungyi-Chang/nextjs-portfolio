@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const ProjectSectionContainer = styled.div`
   background: #98bff5;
-  height: 1600px;
+  height: 1500px;
   padding: 40px 0;
 
   @media screen and (max-width: 900px) {

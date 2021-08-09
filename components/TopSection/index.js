@@ -48,7 +48,7 @@ const TopSection = () => {
         <TopButtonSection>
           <TopButtonWrapper>
             <Button
-              boxShadow
+              
               color={'#262626'}
               padding={'14px 42px'}
               background={'#fff'}
@@ -73,7 +73,7 @@ const TopSection = () => {
           </TopButtonWrapper>
           <TopButtonWrapper>
             <Button
-              boxShadow
+              
               color={'#fff'}
               padding={'14px 42px'}
               background={'#262626'}

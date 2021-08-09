@@ -59,6 +59,7 @@ export const ContactWrapper = styled.div`
 export const ContactHeading = styled.p`
   color: #262626;
   font-size: 30px;
+   margin-top: 100px;
   font-family: 'Encode Sans Expanded', sans-serif;
   font-weight: 600;
   
