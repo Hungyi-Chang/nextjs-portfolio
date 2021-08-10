@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo
 
-https://d13hujzxbsqkwc.cloudfront.net/
+https://d2lk3isx6b7zm3.cloudfront.net/
 
 
 ## Getting Started
