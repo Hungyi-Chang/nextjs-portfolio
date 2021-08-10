@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Screenshots
+
+![App Screenshot](https://mern-dream-shop.s3.ap-southeast-2.amazonaws.com/WX20210810-093436%402x.png)
+
 ## Demo
 
 https://d2lk3isx6b7zm3.cloudfront.net/
